@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Google Slides Catalog - Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #0f172a;
+        background: #f8fafc;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 32px 20px 56px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 8px;
+        font-size: 1.2rem;
+      }
+      p, li {
+        font-size: 1rem;
+      }
+      ul {
+        margin: 8px 0 8px 22px;
+      }
+      .meta {
+        color: #334155;
+        margin-bottom: 20px;
+      }
+      code {
+        background: #e2e8f0;
+        padding: 1px 5px;
+        border-radius: 4px;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Google Slides Catalog - Privacy Policy</h1>
+      <p class="meta">Last updated: February 23, 2026</p>
+
+      <p>
+        This Privacy Policy explains how the Google Slides Catalog Chrome extension
+        ("Extension") handles data.
+      </p>
+
+      <h2>1. Who We Are</h2>
+      <p>Google Slides Catalog is a Chrome extension used to save, tag, and find reusable Google Slides.</p>
+      <p>Contact: <a href="mailto:francois@altirnao.com">francois@altirnao.com</a></p>
+
+      <h2>2. Data We Access</h2>
+      <p>When you use the Extension, it may access:</p>
+      <ul>
+        <li>
+          Google account basic identity data, through Google OAuth scopes:
+          <ul>
+            <li>email address (<code>userinfo.email</code>)</li>
+            <li>basic profile (<code>userinfo.profile</code>)</li>
+          </ul>
+        </li>
+        <li>
+          Google Slides metadata needed to retrieve thumbnails for specific slides you save/view
+          (<code>presentations.readonly</code>)
+        </li>
+        <li>
+          Extension catalog data you create:
+          <ul>
+            <li>slide link (Google Slides URL)</li>
+            <li>slide thumbnail URL</li>
+            <li>tags and metadata (language, customer, topics)</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>3. How Data Is Used</h2>
+      <p>Data is used only to provide Extension features:</p>
+      <ul>
+        <li>authenticate you with your Google account</li>
+        <li>fetch slide thumbnails from Google Slides APIs</li>
+        <li>save and display your cataloged slides and tags</li>
+        <li>let you edit/delete tags and saved slides</li>
+      </ul>
+
+      <h2>4. Data Storage</h2>
+      <ul>
+        <li>Extension data is stored locally in your browser using <code>chrome.storage.local</code>.</li>
+        <li>We do not operate a dedicated backend server for this Extension.</li>
+        <li>We do not store your catalog data in our own remote database.</li>
+      </ul>
+
+      <h2>5. Data Sharing</h2>
+      <p>We do not sell personal data.</p>
+      <p>Data is shared only with Google services as required for functionality, for example:</p>
+      <ul>
+        <li>Google OAuth (sign-in/token handling)</li>
+        <li>Google Slides API (thumbnail retrieval for selected slides)</li>
+      </ul>
+
+      <h2>6. Chrome Permissions and Why They Are Needed</h2>
+      <ul>
+        <li><code>identity</code>: Google sign-in and OAuth token retrieval.</li>
+        <li><code>storage</code>: save your catalog and tags locally.</li>
+        <li><code>activeTab</code> and <code>scripting</code>: run the extension UI inside Google Slides pages.</li>
+        <li>
+          Host permission <code>https://docs.google.com/presentation/d/*</code>: operate on Google Slides deck pages where
+          the extension is used.
+        </li>
+      </ul>
+
+      <h2>7. Retention and Deletion</h2>
+      <ul>
+        <li>
+          Saved slides/tags remain in local browser storage until you edit/delete them, clear browser extension data, or
+          uninstall the extension.
+        </li>
+        <li>Sign-out removes cached auth token(s) managed by the extension flow.</li>
+      </ul>
+
+      <h2>8. Security</h2>
+      <p>
+        We use Chrome extension APIs and Google OAuth to reduce direct credential handling.
+        No solution is 100% secure, but we aim to minimize data access to what is necessary for the product features.
+      </p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>This Extension is not directed to children under 13.</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy over time. The "Last updated" date will reflect the latest revision.</p>
+
+      <h2>11. Contact</h2>
+      <p>For privacy questions or requests, contact <a href="mailto:francois@altirnao.com">francois@altirnao.com</a>.</p>
+    </main>
+  </body>
+</html>
